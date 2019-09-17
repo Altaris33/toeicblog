@@ -4,30 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" 
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
- crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet"
- href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
- integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
- integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Scientific Blog</title>
+
 </head>
 <body>
-    <br>
-    <hr>
     <div class="container">
         <h1 class="h1">Welcome to our  <b>scientific</b> and innovative blog <br> - An insightful analysis of tomorrow's way of life</h1>
-    </div>
-    <hr>
+        <hr>
+        <br>
+        <!-- nav bar -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="articles.html">Articles</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="author.html" role="button" aria-haspopup="true" aria-expanded="false">Author</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="author.html?#captainFalcon">Captain Falcon</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="author.html?#csbuzzy">Csbuzzy</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="author.html?#hdemy">HDEmy</a>
+                </div>
+            </li>
+        </ul>
+        <br>
+        <!-- subjects list-->
+        <div class="card border-info mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="asset/img/robot_humain.jpeg" class="car-img" alt="mains">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-info">TRANSHUMANISM</h5>
+                        <a href="articles.html?#transhumanism" class="btn btn-info">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    
+        <div class="card border-info mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="asset/img/mary_lou_jepsen.jpeg" class="car-img" alt="Mary Lou Jepsen">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-info">HEALING WITH LIGHT</h5>
+                        <a href="articles.html?#healing_with_light" class="btn btn-info">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card border-info mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="asset/img/tumor_brain.jpeg" class="car-img" alt="cerveau">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-info">NANOTECHNOLOGY AND MEDECINE</h5>
+                        <a href="articles.html?#nanotechnology" class="btn btn-info">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="asset/js/nav.js"></script>
 </body>
 </html>
